@@ -105,7 +105,7 @@ Commonly called split tests or A/B tests
 - [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
 - [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
 
-Start by with big changes (exploration) before changing button colors
+Start with big changes (exploration) before changing button colors
 
 Use same tracking as events for conversions
 
@@ -140,6 +140,49 @@ Things not to do
 
 - [supercookies](http://mashable.com/2011/09/02/supercookies-internet-privacy/)
 - [device fingerprinting](https://panopticlick.eff.org/)
+
+## HTTP Spec
+
+### Visits
+
+A `POST` request is sent with:
+
+- visit_token
+- visitor_token
+- referrer
+- landing_page
+
+The server can capture:
+
+- ip
+- user_agent
+- user - from app authentication
+
+And calculate things like:
+
+- referring_domain and search_keyword from referrer
+- utm_source, utm_medium, utm_term, utm_content, and utm_campaign from landing_page
+- city, region, and country from ip
+- browser, os, and device_type from user_agent
+
+### Events
+
+A `POST` request is sent with:
+
+- name
+- properties
+- time
+
+The server can capture:
+
+- visit_token - from cookies
+- user - from app authentication
+
+As a precaution, the server should reject times that do not match:
+
+```
+1 minute ago < time <= now
+```
 
 ## Libraries
 
