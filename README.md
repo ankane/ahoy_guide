@@ -103,6 +103,13 @@ If a visitor is authenticated, do **not** show them the landing page with a “C
 - [Link to Play Store](http://developer.android.com/distribute/googleplay/promote/linking.html)
 - [Link with referrer](https://developers.google.com/analytics/devguides/collection/android/v2/campaigns#google-play-implement)
 
+## Privacy
+
+Things not to do
+
+- [supercookies](http://mashable.com/2011/09/02/supercookies-internet-privacy/)
+- [device fingerprinting](https://panopticlick.eff.org/)
+
 ## Libraries
 
 ### Client Tracking
