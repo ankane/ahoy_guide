@@ -48,7 +48,7 @@ This is a work in progress, built for the open-source community.  If you have gr
 - [Ruby](https://github.com/ankane/ahoy)
 - Others (help make this possible)
 
-### Emails
+### Email
 
 - [Ruby](https://github.com/ankane/ahoy_email)
 - Others (help make this possible)
