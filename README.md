@@ -134,6 +134,17 @@ Start simple and scale as needed - “premature optimization is the root of all 
 
 **TODO:** Recommendations for starting, scaling, and scaling again
 
+## Email
+
+- Track opens and clicks
+- One-click unsubscribe - don't make users confirm or sign in
+- Give the option to resubscribe or manage other lists
+- Use your own unsubscribe link rather than rely on your email server
+
+**TODO:** What emails to send, when to send them
+
+Experiment with the message, time of day, triggers
+
 ## Privacy
 
 Things not to do
