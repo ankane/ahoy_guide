@@ -16,7 +16,7 @@ Never build an analytics platform from scratch again.
 
 This is a work in progress, built for the open-source community.  If you have great practices, articles, or videos, [please share](https://github.com/ankane/ahoy_guide/issues/new).
 
-:warning: Anything below is scattered and probably makes no sense
+:warning: Everything below is scattered and probably makes no sense
 
 ## Outline
 
