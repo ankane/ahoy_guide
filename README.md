@@ -58,11 +58,19 @@ When a user clicks on a link, most browsers set the `Referer` header with the UR
 
 ### Landing Page
 
+The landing page is one of the most important pages of your website.
+
 When an unauthenticated visitor lands on your site, there are a few things that could happen:
 
 - register (success!)
 - sign in
 - bounce
+
+### Authenticated Visitors
+
+If a visitor is authenticated, do **not** show them the landing page with a “Customer Login” link - drop them right into your product.
+
+**Best practice:** Unless you run a banking website or other high security service, keep users signed in between visits.
 
 ## iOS
 
