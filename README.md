@@ -51,7 +51,7 @@ There are two ways to tell where a visitor has come from:
 
 When a user clicks on a link, most browsers set the `Referer` header with the URL of the previous page.  From this, you can extract:
 
-- the exact page
+- the page
 - search keywords
 
 **TODO:** Explain how different browsers handle redirects and note about HTTPS -> HTTP
@@ -68,9 +68,14 @@ When an unauthenticated visitor lands on your site, there are a few things that 
 
 ### Authenticated Visitors
 
-If a visitor is authenticated, do **not** show them the landing page with a “Customer Login” link - drop them right into your product.
+If a visitor is authenticated, do **not** show them the landing page with a “Customer Login” link.  Drop them right into your product.
 
-**Best practice:** Unless you run a banking website or other high security service, keep users signed in between visits.
+**Best practice:** Keep users signed in between visits - unless you run a banking website of course
+
+### Split Tests
+
+- [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
+- [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
 
 ## iOS
 
