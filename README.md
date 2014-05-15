@@ -52,7 +52,7 @@ There are two ways to tell where a visitor has come from:
 When a user clicks on a link, most browsers set the `Referer` header with the URL of the previous page.  From this, you can extract:
 
 - the page
-- search keywords
+- search keywords - thanks to [great libraries](https://github.com/snowplow/referer-parser)
 
 **TODO:** Explain how different browsers handle redirects and note about HTTPS -> HTTP
 
@@ -64,7 +64,7 @@ There are a few things you can calculate about the visitor:
 Client libraries have access to more information, like:
 
 - screen size
-- pixel density (retina)
+- pixel density (retina) - does this really matter?
 
 Be sure to exclude bots from your metrics - some like Googlebot run JavaScript.
 
