@@ -10,9 +10,13 @@ Best practices for:
 - experiments like split tests
 - and much more
 
+Designed to work with any progamming language and any device.
+
 Never build an analytics platform from scratch again.
 
 This is a work in progress, built for the open-source community.  If you have great practices, articles, or videos, [please share](https://github.com/ankane/ahoy_guide/issues/new).
+
+:warning: Anything below is scattered and probably makes no sense
 
 ## Outline
 
@@ -36,9 +40,32 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Storage
 - HTTP Spec
 
+## Web
+
+There are two ways to tell where a visitor has come from:
+
+- the `Referer` header
+- query parameters, like `utm_source`
+
+When a user clicks on a link, most browsers set the `Referer` header with the URL of the previous page.  From this, you can extract:
+
+- the exact page
+- search keywords
+
+**TODO:** Explain how different browsers handle redirects
+
+## iOS
+
+- [Link to App Store](http://stackoverflow.com/a/2337601/1177228)
+- [Smart App Banners](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html)
+
+## Android
+
+- [Link to Play Store](http://developer.android.com/distribute/googleplay/promote/linking.html)
+
 ## Libraries
 
-### Client-Side Tracking
+### Client Tracking
 
 Works with any backend
 
@@ -46,7 +73,7 @@ Works with any backend
 - iOS (soon)
 - Android (soon)
 
-### Server-Side Tracking + Backend
+### Server Tracking + Backend
 
 - [Ruby](https://github.com/ankane/ahoy)
 - Others (help make this possible)
