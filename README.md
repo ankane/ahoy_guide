@@ -38,6 +38,7 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Referrals
 - Load Times
 - Storage
+- Privacy
 - HTTP Spec
 
 ## Web
@@ -163,6 +164,8 @@ Things not to do
 
 - [supercookies](http://mashable.com/2011/09/02/supercookies-internet-privacy/)
 - [device fingerprinting](https://panopticlick.eff.org/)
+
+Section on Do Not Track
 
 ## HTTP Spec
 
