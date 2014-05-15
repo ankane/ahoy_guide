@@ -42,6 +42,8 @@ This is a work in progress, built for the open-source community.  If you have gr
 
 ## Web
 
+### Visitors
+
 There are two ways to tell where a visitor has come from:
 
 - the `Referer` header
@@ -52,7 +54,15 @@ When a user clicks on a link, most browsers set the `Referer` header with the UR
 - the exact page
 - search keywords
 
-**TODO:** Explain how different browsers handle redirects
+**TODO:** Explain how different browsers handle redirects and note about HTTPS -> HTTP
+
+### Landing Page
+
+When an unauthenticated visitor lands on your site, there are a few things that could happen:
+
+- register (success!)
+- sign in
+- bounce
 
 ## iOS
 
