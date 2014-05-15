@@ -105,6 +105,8 @@ Commonly called split tests or A/B tests
 - [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
 - [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
 
+Start by with big changes (exploration) before changing button colors
+
 Use same tracking as events for conversions
 
 ## iOS
