@@ -145,6 +145,18 @@ Start simple and scale as needed - “premature optimization is the root of all 
 
 Experiment with the message, time of day, triggers
 
+## Referrals
+
+How to track referrals correctly
+
+## Load Times
+
+No one ever wants a slow service
+
+Acceptable tresholds
+
+[Better SEO?](http://unbounce.com/conversion-rate-optimization/a-fast-web-site-increases-conversions/)
+
 ## Privacy
 
 Things not to do
