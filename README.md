@@ -56,6 +56,18 @@ When a user clicks on a link, most browsers set the `Referer` header with the UR
 
 **TODO:** Explain how different browsers handle redirects and note about HTTPS -> HTTP
 
+There are a few things you can calculate about the visitor:
+
+- estimated location from IP address
+- browser, OS, and device model from user agent
+
+Client libraries have access to more information, like:
+
+- screen size
+- pixel density (retina)
+
+Be sure to exclude bots from your metrics - some like Googlebot run JavaScript.
+
 ### Landing Page
 
 The landing page is one of the most important pages of your website.
@@ -66,13 +78,17 @@ When an unauthenticated visitor lands on your site, there are a few things that 
 - sign in
 - bounce
 
-### Authenticated Visitors
+#### Authenticated Visitors
 
 If a visitor is authenticated, do **not** show them the landing page with a “Customer Login” link.  Drop them right into your product.
 
 **Best practice:** Keep users signed in between visits - unless you run a banking website of course
 
-### Split Tests
+#### Funnel
+
+- Intent
+
+#### Split Tests
 
 - [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
 - [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
