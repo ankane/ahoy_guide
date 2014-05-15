@@ -113,6 +113,12 @@ Use same tracking as events for conversions
 - [Link to Play Store](http://developer.android.com/distribute/googleplay/promote/linking.html)
 - [Link with referrer](https://developers.google.com/analytics/devguides/collection/android/v2/campaigns#google-play-implement)
 
+## Storage
+
+- logs
+- database
+- distributed data stores
+
 ## Privacy
 
 Things not to do
