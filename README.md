@@ -115,9 +115,16 @@ Use same tracking as events for conversions
 
 ## Storage
 
-- logs
+Start simple and scale as needed - “premature optimization is the root of all evil”
+
+- logs (not queryable)
+  - backup to [S3]
 - database
+  - PostgreSQL, Redis, Logstash, Fluentd
 - distributed data stores
+  - Hadoop, Cassandra, [Amazon Redshift]
+
+[not open source]
 
 ## Privacy
 
