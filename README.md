@@ -86,12 +86,22 @@ If a visitor is authenticated, do **not** show them the landing page with a “C
 
 #### Funnel
 
-- Intent
+Intent is key
 
-#### Split Tests
+Segment by:
+
+- mobile vs desktop
+- channel
+- experiment
+
+#### Experiments
+
+Commonly called split tests or A/B tests
 
 - [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
 - [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
+
+Use same tracking as events for conversions
 
 ## iOS
 
