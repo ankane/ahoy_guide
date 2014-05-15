@@ -62,6 +62,7 @@ When a user clicks on a link, most browsers set the `Referer` header with the UR
 ## Android
 
 - [Link to Play Store](http://developer.android.com/distribute/googleplay/promote/linking.html)
+- [Link with referrer](https://developers.google.com/analytics/devguides/collection/android/v2/campaigns#google-play-implement)
 
 ## Libraries
 
