@@ -34,10 +34,13 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Referrals
 - Load Times
 - Storage
+- HTTP Spec
 
 ## Libraries
 
-### Client-Side Tracking [backend agnostic]
+### Client-Side Tracking
+
+Works with any backend
 
 - [JavaScript](https://github.com/ankane/ahoy.js)
 - iOS (soon)
