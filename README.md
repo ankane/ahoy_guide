@@ -18,6 +18,7 @@ This is a work in progress, built for the open-source community.  If you have gr
 
 - Intro
 - The Perfect Platform
+- People, Not Page Views
 - Web
   - Landing page
     - Acquisition
@@ -36,18 +37,18 @@ This is a work in progress, built for the open-source community.  If you have gr
 
 ## Libraries
 
-### Tracking [client]
+### Client-Side Tracking [backend agnostic]
 
 - [JavaScript](https://github.com/ankane/ahoy.js)
 - iOS (soon)
 - Android (soon)
 
-### Tracking [server] + Backend
+### Server-Side Tracking + Backend
 
 - [Ruby](https://github.com/ankane/ahoy)
 - Others (help make this possible)
 
-### Tracking [emails]
+### Emails
 
 - [Ruby](https://github.com/ankane/ahoy_email)
 - Others (help make this possible)
