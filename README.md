@@ -126,6 +126,8 @@ Start simple and scale as needed - “premature optimization is the root of all 
 
 [not open source]
 
+**TODO:** Recommendations for starting, scaling, and scaling again
+
 ## Privacy
 
 Things not to do
