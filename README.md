@@ -162,7 +162,7 @@ No one ever wants a slow service
 How to instrument load times: Give each request an id and record the time the:
 
 - request starts
-- server completes reqeust
+- server completes request
 - JavaScript says ready
 
 Tricks:
