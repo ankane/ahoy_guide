@@ -43,7 +43,14 @@ This is a work in progress, built for the open-source community.  If you have gr
 
 ## Web
 
-### Visitors
+### Visits
+
+A visit is the basic building block. The visit:
+
+- gives you a way to attach events that happened before sign in
+- tells you how someone arrived at your website
+- gives you a rough idea of location for local services
+- tells you information about the technology (browser, screen size, OS version), which you can use this to tailor your product to users
 
 There are two ways to tell where a visitor has come from:
 
@@ -109,6 +116,8 @@ Commonly called split tests or A/B tests
 Start with big changes (exploration) before changing button colors
 
 Use same tracking as events for conversions
+
+Segment key funnels by experiment variation
 
 ## iOS
 
