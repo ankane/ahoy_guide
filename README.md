@@ -1,6 +1,6 @@
 # Ahoy
 
-:fire: A foundation of knowledge and libraries for awesome analytics
+:fire: A foundation of knowledge and libraries for solid analytics
 
 Best practices for:
 
@@ -86,7 +86,7 @@ When an unauthenticated visitor lands on your site, there are a few things that 
 - sign in
 - bounce
 
-**TODO:** Note about multiple authentication strategies (email, Facebook, Google, etc)
+**TODO:** Note about multiple authentication strategies (email, [Facebook](https://developers.facebook.com/docs/facebook-login/permissions/v2.0#optimizing), Google, etc)
 
 **Best practice:** For third-party services, ask for the miminum number of permissions needed
 
