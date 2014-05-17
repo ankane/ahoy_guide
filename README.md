@@ -152,7 +152,22 @@ How to track referrals correctly
 
 ## Load Times
 
+[Latency matters](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+
+- Amazon - every 100ms cost them 1% in sales
+- Google - an extra half second dropped search traffic by 20%
+
 No one ever wants a slow service
+
+How to instrument load times: Give each request an id and record the time the:
+
+- request starts
+- server completes reqeust
+- JavaScript says ready
+
+Tricks:
+
+- Limit redirects
 
 Acceptable tresholds
 
