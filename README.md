@@ -55,7 +55,7 @@ When a user clicks on a link, most browsers set the `Referer` header with the UR
 - the page
 - search keywords - thanks to [great libraries](https://github.com/snowplow/referer-parser)
 
-**TODO:** Explain how different browsers handle redirects and note about HTTPS -> HTTP
+**TODO:** Explain how [different browsers handle redirects](http://stackoverflow.com/questions/2158283/will-a-302-redirect-maintain-the-referer-string) and note about [HTTPS -> HTTP](http://webmasters.stackexchange.com/questions/47405/how-can-i-pass-referrer-header-from-my-https-domain-to-http-domains)
 
 There are a few things you can calculate about the visitor:
 
