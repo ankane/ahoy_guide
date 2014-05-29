@@ -112,6 +112,8 @@ Commonly called split tests or A/B tests
 
 - [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
 - [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
+- [Sample Size Calculator](http://www.evanmiller.org/ab-testing/sample-size.html)
+- [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
 
 Start with big changes (exploration) before changing button colors
 
