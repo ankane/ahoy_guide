@@ -120,6 +120,7 @@ Commonly called split tests or A/B tests
 - [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
 - [Sample Size Calculator](http://www.evanmiller.org/ab-testing/sample-size.html)
 - [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
+- [Bayesian AB Testing](http://developers.lyst.com/data/2014/05/10/bayesian-ab-testing/)
 
 Start with big changes (exploration) before changing button colors
 
