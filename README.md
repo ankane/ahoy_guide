@@ -23,6 +23,7 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Intro
 - The Perfect Platform
 - People, Not Page Views
+- Qualitative Feedback
 - Web
   - Landing page
     - Acquisition
@@ -40,6 +41,11 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Storage
 - Privacy
 - HTTP Spec
+
+## Qualitative Feedback
+
+- [Peek](http://peek.usertesting.com/) - free!
+- [Session recording](http://www.inspectlet.com)
 
 ## Web
 
