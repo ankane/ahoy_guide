@@ -22,7 +22,7 @@ This is a work in progress, built for the open-source community.  If you have gr
 
 - Intro
 - The Perfect Platform
-- People, Not Page Views
+- People
 - Qualitative Feedback
 - Web
   - Landing page
@@ -41,6 +41,15 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Storage
 - Privacy
 - HTTP Spec
+
+## People
+
+Two users viewing a page is different than one user viewing it twice.  This is critical for funnels and experiments.
+
+There are two type of people:
+
+- Users - authenticated
+- Visitors - anonymous
 
 ## Qualitative Feedback
 
