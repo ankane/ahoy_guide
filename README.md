@@ -75,7 +75,9 @@ Users have properties
 
 ## Technical Notes
 
-Visitors and visits should be given a [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier) *on the server* for web apps and stored in cookies. Ids should be stored as a 128-bit number, not a string (except for logs).
+References to “unique id” in this guide refer to a [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier). These should be stored as a 128-bit number, not a string (except for logs).
+
+Visitors and visits should be given a unique id *on the server* for web apps and stored in cookies.
 
 ## People
 
@@ -200,7 +202,7 @@ Start simple and scale as needed - “premature optimization is the root of all 
 
 ## Email
 
-Give each message a UUID.
+Give each message a unique id.
 
 - Track opens and clicks
 - One-click unsubscribe - don't make users confirm or sign in
@@ -224,7 +226,7 @@ How to track referrals correctly
 
 No one ever wants a slow service
 
-How to instrument load times: Give each request an id and record the time the:
+How to instrument load times: Give each request a unique id and record the time the:
 
 - request starts
 - server completes request
