@@ -24,6 +24,8 @@ This is a work in progress, built for the open-source community.  If you have gr
 - The Perfect Platform
 - People
 - Qualitative Feedback
+- Funnels
+- Split Tests
 - Web
   - Landing page
     - Acquisition
@@ -52,13 +54,22 @@ Visitors have properties
 
 A visit belongs to a visitor.  Users can have visits through authentication events.
 
+A visit provides:
+
+- a way to attach events that happened before sign in
+- how someone arrived at the website or app
+- a rough idea of location for local services
+- information about the technology (browser, screen size, OS version), which you can use this to tailor your product to users
+
 ### Event
 
 Events are actions a person performs.
 
-Events have a visit (from which you can get the visitor) and a user.
+Events have a visit (from which you can get the visitor) possibly a user.
 
 ### User
+
+Users are authenticated visitors
 
 Users have properties
 
@@ -76,16 +87,37 @@ There are two type of people:
 - [Peek](http://peek.usertesting.com/) - free!
 - [Session recording](http://www.inspectlet.com)
 
+## Funnels
+
+Intent is key
+
+Segment by:
+
+- mobile vs desktop
+- channel
+- experiment
+
+## Split Tests
+
+Commonly called split tests or A/B tests
+
+- [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
+- [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
+- [Sample Size Calculator](http://www.evanmiller.org/ab-testing/sample-size.html)
+- [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
+- [Bayesian AB Testing](http://developers.lyst.com/data/2014/05/10/bayesian-ab-testing/)
+
+Start with big changes (exploration) before changing button colors
+
+Use same tracking as events for conversions
+
+Segment key funnels by experiment variation
+
+Split tests are special properties attached to visitors or users.
+
 ## Web
 
 ### Visits
-
-A visit is the basic building block. The visit:
-
-- gives you a way to attach events that happened before sign in
-- tells you how someone arrived at your website
-- gives you a rough idea of location for local services
-- tells you information about the technology (browser, screen size, OS version), which you can use this to tailor your product to users
 
 There are two ways to tell where a visitor has come from:
 
@@ -130,32 +162,6 @@ When an unauthenticated visitor lands on your site, there are a few things that 
 If a visitor is authenticated, do **not** show them the landing page with a “Customer Login” link.  Drop them right into your product.
 
 **Best practice:** Keep users signed in between visits - unless you run a banking website of course
-
-#### Funnel
-
-Intent is key
-
-Segment by:
-
-- mobile vs desktop
-- channel
-- experiment
-
-#### Experiments
-
-Commonly called split tests or A/B tests
-
-- [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
-- [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
-- [Sample Size Calculator](http://www.evanmiller.org/ab-testing/sample-size.html)
-- [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
-- [Bayesian AB Testing](http://developers.lyst.com/data/2014/05/10/bayesian-ab-testing/)
-
-Start with big changes (exploration) before changing button colors
-
-Use same tracking as events for conversions
-
-Segment key funnels by experiment variation
 
 ## iOS
 
