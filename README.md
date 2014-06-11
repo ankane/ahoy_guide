@@ -200,6 +200,8 @@ Start simple and scale as needed - “premature optimization is the root of all 
 
 ## Email
 
+Give each message a UUID.
+
 - Track opens and clicks
 - One-click unsubscribe - don't make users confirm or sign in
 - Give the option to resubscribe or manage other lists
