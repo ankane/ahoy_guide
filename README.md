@@ -111,13 +111,19 @@ Commonly called split tests or A/B tests
 - [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
 - [Bayesian AB Testing](http://developers.lyst.com/data/2014/05/10/bayesian-ab-testing/)
 
-Start with big changes (exploration) before changing button colors
+Start with big changes (exploration), not button colors
 
 Use same tracking as events for conversions
 
 Segment key funnels by experiment variation
 
 Split tests are special properties attached to visitors or users.
+
+Variation membership should be stored.  They should be looked up by user id (first), then visitor id.
+
+If there is a user but only a split test variation for the visitor, the user should use the same variation.
+
+It should be easy for developers to test variations.
 
 ## Web
 
