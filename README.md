@@ -73,6 +73,10 @@ Users are authenticated visitors
 
 Users have properties
 
+## Technical Notes
+
+Visitors and visits should be given a [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier) *on the server* for web apps and stored in cookies. Ids should be stored as a 128-bit number, not a string (except for logs).
+
 ## People
 
 Two users viewing a page is different than one user viewing it twice.  This is critical for funnels and experiments.
