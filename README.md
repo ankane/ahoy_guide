@@ -42,6 +42,26 @@ This is a work in progress, built for the open-source community.  If you have gr
 - Privacy
 - HTTP Spec
 
+## Entities
+
+### Visitor
+
+Visitors have properties
+
+### Visit (session)
+
+A visit belongs to a visitor.  Users can have visits through authentication events.
+
+### Event
+
+Events are actions a person performs.
+
+Events have a visit (from which you can get the visitor) and a user.
+
+### User
+
+Users have properties
+
 ## People
 
 Two users viewing a page is different than one user viewing it twice.  This is critical for funnels and experiments.
