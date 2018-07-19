@@ -75,7 +75,7 @@ Users have properties
 
 ## Technical Notes
 
-References to “unique id” in this guide refer to a [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier). These should be stored as a 128-bit number, not a string (except for logs).
+References to “unique id” in this guide refer to a [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier). These should be stored as a 128-bit number, not a string (except for logs).
 
 Visitors and visits should be given a unique id *on the server* for web apps and stored in cookies.
 
@@ -90,8 +90,8 @@ There are two type of people:
 
 ## Qualitative Feedback
 
-- [Peek](http://peek.usertesting.com/) - free!
-- [Session recording](http://www.inspectlet.com)
+- [Peek](https://peek.usertesting.com/) - free!
+- [Session recording](https://www.inspectlet.com)
 
 ## Funnels
 
@@ -107,11 +107,11 @@ Segment by:
 
 Commonly called split tests or A/B tests
 
-- [How Not To Run An A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
-- [Why multi-armed bandit algorithm is not “better” than A/B testing](http://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
-- [Sample Size Calculator](http://www.evanmiller.org/ab-testing/sample-size.html)
-- [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
-- [Bayesian AB Testing](http://developers.lyst.com/data/2014/05/10/bayesian-ab-testing/)
+- [How Not To Run An A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)
+- [Why multi-armed bandit algorithm is not “better” than A/B testing](https://visualwebsiteoptimizer.com/split-testing-blog/multi-armed-bandit-algorithm/) - time is $$$
+- [Sample Size Calculator](https://www.evanmiller.org/ab-testing/sample-size.html)
+- [Experiments at Airbnb](https://nerds.airbnb.com/experiments-at-airbnb/)
+- [Bayesian AB Testing](https://developers.lyst.com/data/2014/05/10/bayesian-ab-testing/)
 
 Start with big changes (exploration), not button colors
 
@@ -141,7 +141,7 @@ When a user clicks on a link, most browsers set the `Referer` header with the UR
 - the page
 - search keywords - thanks to [great libraries](https://github.com/snowplow/referer-parser)
 
-**TODO:** Explain how [different browsers handle redirects](http://stackoverflow.com/questions/2158283/will-a-302-redirect-maintain-the-referer-string) and note about [HTTPS -> HTTP](http://webmasters.stackexchange.com/questions/47405/how-can-i-pass-referrer-header-from-my-https-domain-to-http-domains)
+**TODO:** Explain how [different browsers handle redirects](https://stackoverflow.com/questions/2158283/will-a-302-redirect-maintain-the-referer-string) and note about [HTTPS -> HTTP](https://webmasters.stackexchange.com/questions/47405/how-can-i-pass-referrer-header-from-my-https-domain-to-http-domains)
 
 There are a few things you can calculate about the visitor:
 
@@ -177,12 +177,12 @@ If a visitor is authenticated, do **not** show them the landing page with a “C
 
 ## iOS
 
-- [Link to App Store](http://stackoverflow.com/a/2337601/1177228)
+- [Link to App Store](https://stackoverflow.com/a/2337601/1177228)
 - [Smart App Banners](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html)
 
 ## Android
 
-- [Link to Play Store](http://developer.android.com/distribute/googleplay/promote/linking.html)
+- [Link to Play Store](https://developer.android.com/distribute/googleplay/promote/linking.html)
 - [Link with referrer](https://developers.google.com/analytics/devguides/collection/android/v2/campaigns#google-play-implement)
 
 ## Storage
@@ -238,13 +238,13 @@ Tricks:
 
 Acceptable tresholds
 
-[Better SEO?](http://unbounce.com/conversion-rate-optimization/a-fast-web-site-increases-conversions/)
+[Better SEO?](https://unbounce.com/conversion-rate-optimization/a-fast-web-site-increases-conversions/)
 
 ## Privacy
 
 Things not to do
 
-- [supercookies](http://mashable.com/2011/09/02/supercookies-internet-privacy/)
+- [supercookies](https://mashable.com/2011/09/02/supercookies-internet-privacy/)
 - [device fingerprinting](https://panopticlick.eff.org/)
 
 Section on Do Not Track
